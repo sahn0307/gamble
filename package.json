@@ -1,0 +1,15 @@
+{
+  "name": "gamble",
+  "version": "1.0.0",
+  "description": "gambling game",
+  "main": "index.js",
+  "scripts": {
+    "start": "esbuild index.js --sourcemap --bundle --outfile=www/out.js --servedir=www --watch"
+  },
+  "author": "sungjin",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.19.2",
+    "mithril": "^2.2.2"
+  }
+}
